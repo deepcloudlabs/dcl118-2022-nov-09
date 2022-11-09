@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.23)
+project(module01)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(module01 main.cpp)
+add_executable(uniform-initialization uniform-initialization.cpp)
+add_executable(study-explicit study-explicit.cpp)
+add_executable(study-auto study-auto.cpp)
+add_executable(study-constexpr study-constexpr.cpp)
+add_executable(study-lvalue-rvalue study-lvalue-rvalue.cpp)
+add_executable(study-lvalue-rvalue2 study-lvalue-rvalue2.cpp)
+add_executable(study-move-semantics study-move-semantics.cpp)
+add_executable(study-shared-ptr study-shared-ptr.cpp)
+add_executable(study-deleted-methods study-deleted-methods.cpp)
+add_executable(study-structured-binding study-structured-binding.cpp)
